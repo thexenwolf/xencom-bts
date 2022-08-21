@@ -120,7 +120,7 @@ Nuand modified Yate source release candidate 3
 
 Mirror: https://com.xen.sh/mirror/yate-rc-3.tar.gz
 
-Personal zip of commit 3a411c87c2416dc68030d5823d73ebf3f797a145 of bladeRF git repo
+Snapshot of commit 3a411c87c2416dc68030d5823d73ebf3f797a145 of bladeRF git repo
 
 `4796f711a04f0df296ab3839276d71b65337486a7cb753dae06566f77ae2a860  bladeRF-3a411c87c2416dc68030d5823d73ebf3f797a145.tar.gz`
 
