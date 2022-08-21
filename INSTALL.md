@@ -98,6 +98,10 @@ sudo chown root:www-data /usr/local/etc/yate/*.conf
 sudo chmod g=u /usr/local/etc/yate/*.conf
 ```
 
+## Configure apache to serve network in a box page
+
+`ln -sfT /usr/local/share/yate/nipc_web/ /var/www/html/nib`
+
 ## Flash firmware 1.9.1 to bladeRF
 
 ```
