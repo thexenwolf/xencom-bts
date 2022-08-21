@@ -2,7 +2,7 @@ Installation is in three parts. bladeRF drivers from a specific git commit, yate
 
 # Prerequisites
 
-**Ubuntu 22.04 LTS**
+**These instructions were written with Ubuntu 22.04 LTS in mind**
 
 ## Repositories
 
@@ -15,6 +15,12 @@ Installation is in three parts. bladeRF drivers from a specific git commit, yate
 ## Build environment
 
 `mkdir ~/build`
+
+## bladeRF firmware
+
+1.9.1 works best with Yate
+
+`cd ~/build/ && wget https://www.nuand.com/fx3/bladeRF_fw_v1.9.1.img`
 
 # Fetch sources
 
@@ -82,8 +88,21 @@ sudo ldconfig
 
 # Post install configuration
 
+## Give config group ownership to Yate NIB
+
+Network In a Box will allow you to maniupluate the config through a web GUI. Prepare the files in advance and give correct ownership.
+
 ```
 sudo touch /usr/local/etc/yate/snmp_data.conf /usr/local/etc/yate/tmsidata.conf
 sudo chown root:www-data /usr/local/etc/yate/*.conf
 sudo chmod g=u /usr/local/etc/yate/*.conf
 ```
+
+## Flash firmware 1.9.1 to bladeRF
+
+```
+cd ~/build/
+bladeRF-cli -f bladeRF_fw_v1.9.1.img
+```
+
+Once this has completed, unplug and replug the bladeRF.
