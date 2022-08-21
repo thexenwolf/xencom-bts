@@ -110,3 +110,25 @@ bladeRF-cli -f bladeRF_fw_v1.9.1.img
 ```
 
 Once this has completed, unplug and replug the bladeRF.
+
+# Hashes and mirrors
+
+All hashes are sha256
+
+Nuand bladeRF Firmware 1.9.1
+
+`ab32b890f3dc5d353c802dbcad0af78770ef77f2542792875e9177c2e5445124  bladeRF_fw_v1.9.1.img`
+
+Mirror: https://com.xen.sh/mirror/bladeRF_fw_v1.9.1.img
+
+Nuand modified Yate source release candidate 3
+
+`daa876d15296b955cd90ade71fbb86789ffeaa2cc61801da93b6739ae8dc0f97  yate-rc-3.tar.gz`
+
+Mirror: https://com.xen.sh/mirror/yate-rc-3.tar.gz
+
+Personal zip of commit 3a411c87c2416dc68030d5823d73ebf3f797a145 of bladeRF git repo
+
+`4796f711a04f0df296ab3839276d71b65337486a7cb753dae06566f77ae2a860  bladeRF-3a411c87c2416dc68030d5823d73ebf3f797a145.tar.gz`
+
+Mirror: https://com.xen.sh/mirror/bladeRF-3a411c87c2416dc68030d5823d73ebf3f797a145.tar.gz
