@@ -53,7 +53,7 @@ Create the build directories and prepare the build files.
 cd ~/build/bladeRF/host
 mkdir build
 cd build/
-$ cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr/local -DINSTALL_UDEV_RULES=ON ../
+cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr/local -DINSTALL_UDEV_RULES=ON ../
 ```
 
 Build.
