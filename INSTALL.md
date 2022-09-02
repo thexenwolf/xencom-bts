@@ -4,13 +4,20 @@ Installation is in three parts. bladeRF drivers from a specific git commit, yate
 
 **These instructions were written with Ubuntu 22.04 LTS in mind**
 
+## Supported Architectures
+
+|Arch|Status|Notes|
+|-----|-----|-----|
+|x64  |Working|Ubuntu 22.04 Server|
+|ARM64|Testing|Ubuntu 22.04 Server ARM|
+
 ## Repositories
 
 `sudo add-apt-repository ppa:ondrej/php && sudo apt update`
 
 ## Packages
 
-`sudo apt install -y build-essential git subversion unzip aiutoconf libusb-1.0-0-dev libgsm1 cmake pkg-config wget apache2 php5.6`
+`sudo apt install -y build-essential git subversion unzip autoconf libusb-1.0-0-dev libgsm1 cmake pkg-config wget apache2 php5.6`
 
 ## Build environment
 
