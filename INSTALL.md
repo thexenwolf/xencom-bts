@@ -68,6 +68,16 @@ sudo ldconfig
 
 ```
 cd ~/build/yate/
+```
+
+If you're running on ARM64, you'll need to apply a patch.
+
+```
+#only do this for ARM64 support
+patch -p1 < add-arm64-support.patch
+```
+
+```
 ./autogen.sh
 ./configure --prefix=/usr/local
 make
