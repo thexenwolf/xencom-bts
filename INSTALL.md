@@ -47,7 +47,7 @@ git reset --hard 3a411c87c2416dc68030d5823d73ebf3f797a145
 ```
 cd ~/build/
 wget https://nuand.com/downloads/yate-rc-3.tar.gz
-tar xvr yate-rc-3.tar.gz
+tar xvf yate-rc-3.tar.gz
 ```
 
 # Building/installing
